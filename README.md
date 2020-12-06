@@ -168,9 +168,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Mignon Gakuba - [@linkdlin_handle](https://www.linkedin.com/in/mignon-gakuba-700247180/) - email -[Mignon Gakuba](gakuba14@outlook.com)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/MignonGakuba/reciswipe_OI)
 
 
 
