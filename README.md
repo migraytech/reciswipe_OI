@@ -114,7 +114,7 @@ npm install
 ```
 3. How to Run App:
 ```sh
-    cd to the repo
+cd to the repo
 ```
   Run Build for either OS
    for iOS
