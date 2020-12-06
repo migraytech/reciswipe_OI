@@ -83,9 +83,9 @@
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [React Native]()
+* [JavaScript]()
+* [Android Sutdio]()
 
 
 
@@ -123,9 +123,9 @@ npm install
  ```
   for Android
         Run Genymotion
-  ```sh
-        run react-native run-android
-  ```
+ ```sh
+ run react-native run-android
+ ```
 
 
 
