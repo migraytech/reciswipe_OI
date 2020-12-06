@@ -87,7 +87,8 @@ For my individual assignment I would like to work on my own concept. I came up w
 
 * [React Native](https://reactnative.dev/)
 * [JavaScript](https://developer.mozilla.org/nl/docs/Web/JavaScript)
-* [Android Studio](https://developer.android.com/studio)
+* [Android Studio](https://developer.android.com/studio) 
+* [NPM](https://www.npmjs.com/) 
 
 
 
