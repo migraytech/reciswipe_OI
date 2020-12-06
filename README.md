@@ -106,21 +106,26 @@ npm install npm@latest -g
 
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo_name.git
+git clone https://github.com/MignonGakuba/reciswipe_OI.git
 ```
 2. Install NPM packages
 ```sh
-npm install
+npm install 
 ```
 3. How to Run App:
+```sh
     cd to the repo
-    Run Build for either OS
-
-    for iOS
-        run react-native run-ios
-    for Android
+```
+  Run Build for either OS
+   for iOS
+ ```sh
+ run react-native run-ios
+ ```
+  for Android
         Run Genymotion
+  ```sh
         run react-native run-android
+  ```
 
 
 
