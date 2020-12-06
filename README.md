@@ -78,11 +78,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
 
 
 ### Built With
@@ -95,8 +91,8 @@ Here's a blank template to get started:
 
 <!-- GETTING STARTED -->
 ## Getting Started
+React Native apps may target iOS 10.0 and Android 4.1 (API 16) or newer. You may use Windows, macOS, or Linux as your development operating system, though building and running iOS apps is limited to macOS. Tools like Expo can be used to work around this.
 
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -116,6 +112,15 @@ git clone https://github.com/github_username/repo_name.git
 ```sh
 npm install
 ```
+3. How to Run App:
+    cd to the repo
+    Run Build for either OS
+
+    for iOS
+        run react-native run-ios
+    for Android
+        Run Genymotion
+        run react-native run-android
 
 
 
