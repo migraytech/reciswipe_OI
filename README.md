@@ -77,6 +77,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+For my individual assignment I would like to work on my own concept. I came up with a concept together with a friend that I would like to work on. Recswipe you will see that it looks and functions differently than Tinder. It can generate recipes. In addition, you can keep track of what you have eaten last. Reciswipe's mission is a varied and varied offer. Also encourage people to eat healthy. It is an application that allows consumers to make choices from list dishes and to swipe through them, just like in Tinder. Application must be able to bridge the gap These dishes must register, you will see a list of dishes in front of them. It should also be an online platform where people can also lose their dishes and share them with other users. With this application I hope to practice my frontend skills and practice backend. Where I mainly want to work is my visual design and web design. I also like practicing with JavaScript animation
+
 
 
 
