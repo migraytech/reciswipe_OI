@@ -83,9 +83,9 @@
 
 ### Built With
 
-* [React Native]()
-* [JavaScript]()
-* [Android Sutdio]()
+* [React Native](https://reactnative.dev/)
+* [JavaScript](https://developer.mozilla.org/nl/docs/Web/JavaScript)
+* [Android Studio](https://developer.android.com/studio)
 
 
 
