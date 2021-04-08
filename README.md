@@ -1,10 +1,10 @@
-# reciswipe_OI
+# Reciswipe_OI
 
 <!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
+*** Thanks for checking out this Reciswipe Tool. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
 *** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
+*** 
 ***
 ***
 ***
@@ -77,26 +77,25 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+For my individual assignment I would like to work on my own concept. I came up with a concept together with a friend that I would like to work on. Recswipe you will see that it looks and functions differently than Tinder. It can generate recipes. In addition, you can keep track of what you have eaten last. Reciswipe's mission is a varied and varied offer. Also encourage people to eat healthy. It is an application that allows consumers to make choices from list dishes and to swipe through them, just like in Tinder. Application must be able to bridge the gap These dishes must register, you will see a list of dishes in front of them. It should also be an online platform where people can also lose their dishes and share them with other users. With this application I hope to practice my frontend skills and practice backend. Where I mainly want to work is my visual design and web design. I also like practicing with JavaScript animation
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
+
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [React Native](https://reactnative.dev/)
+* [JavaScript](https://developer.mozilla.org/nl/docs/Web/JavaScript)
+* [Android Studio](https://developer.android.com/studio) 
+* [NPM](https://www.npmjs.com/) 
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+React Native apps may target iOS 10.0 and Android 4.1 (API 16) or newer. You may use Windows, macOS, or Linux as your development operating system, though building and running iOS apps is limited to macOS. Tools like Expo can be used to work around this.
 
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -110,12 +109,26 @@ npm install npm@latest -g
 
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo_name.git
+git clone https://github.com/MignonGakuba/reciswipe_OI.git
 ```
 2. Install NPM packages
 ```sh
-npm install
+npm install 
 ```
+3. How to Run App:
+```sh
+cd to the repo
+```
+  Run Build for either OS
+   for iOS
+ ```sh
+ run react-native run-ios
+ ```
+  for Android
+        Run Genymotion
+ ```sh
+ run react-native run-android
+ ```
 
 
 
@@ -158,9 +171,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Mignon Gakuba - [@linkdlin_handle](https://www.linkedin.com/in/mignon-gakuba-700247180/) - email -[Mignon Gakuba](gakuba14@outlook.com)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/MignonGakuba/reciswipe_OI)
 
 
 
