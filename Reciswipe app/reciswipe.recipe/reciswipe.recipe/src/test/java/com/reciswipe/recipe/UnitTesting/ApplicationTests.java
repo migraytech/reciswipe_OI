@@ -1,4 +1,4 @@
-package com.reciswipe.recipe;
+package com.reciswipe.recipe.UnitTesting;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
