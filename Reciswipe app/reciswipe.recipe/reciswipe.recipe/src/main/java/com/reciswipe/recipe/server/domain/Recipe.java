@@ -12,5 +12,6 @@ public class Recipe {
     @GeneratedValue
     private Long id;
 
-
+     //TODO
+     // which attributes
 }
