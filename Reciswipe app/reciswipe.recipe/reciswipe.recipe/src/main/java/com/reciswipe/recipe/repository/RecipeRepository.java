@@ -12,4 +12,5 @@ public interface RecipeRepository extends JpaRepository<Recipe,Long> {
 
     @Override
     List<Recipe> findAll();
+
 }
