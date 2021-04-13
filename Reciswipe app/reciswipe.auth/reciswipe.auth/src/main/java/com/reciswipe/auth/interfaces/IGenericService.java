@@ -1,4 +1,11 @@
 package com.reciswipe.auth.interfaces;
 
-public interface IGenericService {
+import java.util.List;
+
+public interface IGenericService <T>{
+    T create(T object);
+    List <T> read();
+    T update (T object);
+    boolean delete (T object);
+
 }
