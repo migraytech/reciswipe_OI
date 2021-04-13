@@ -85,50 +85,12 @@ For my individual assignment I would like to work on my own concept. I came up w
 
 ### Built With
 
-* [React Native](https://reactnative.dev/)
+* [ReactJS](https://reactjs.dev/)
 * [JavaScript](https://developer.mozilla.org/nl/docs/Web/JavaScript)
 * [Android Studio](https://developer.android.com/studio) 
 * [NPM](https://www.npmjs.com/) 
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-React Native apps may target iOS 10.0 and Android 4.1 (API 16) or newer. You may use Windows, macOS, or Linux as your development operating system, though building and running iOS apps is limited to macOS. Tools like Expo can be used to work around this.
-
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Clone the repo
-```sh
-git clone https://github.com/MignonGakuba/reciswipe_OI.git
-```
-2. Install NPM packages
-```sh
-npm install 
-```
-3. How to Run App:
-```sh
-cd to the repo
-```
-  Run Build for either OS
-   for iOS
- ```sh
- run react-native run-ios
- ```
-  for Android
-        Run Genymotion
- ```sh
- run react-native run-android
- ```
 
 
 
