@@ -16,7 +16,7 @@ import static com.reciswipe.recipe.helpers.Logger.log;
 @RestControllerAdvice
 public abstract class AbstractController {
 
-    public static final JsonResult result = new JsonResult();
+    public static  JsonResult result = new JsonResult();
 
     @ExceptionHandler
     @ResponseStatus(value = HttpStatus.NOT_FOUND)

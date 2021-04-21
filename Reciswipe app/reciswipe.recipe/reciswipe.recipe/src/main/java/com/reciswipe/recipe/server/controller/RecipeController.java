@@ -28,9 +28,10 @@ public class RecipeController extends AbstractController {
     @Autowired
     public RecipeValidator recipeValidator;
 
-   //TODO
-   // create endsPoints for this service get the all recipes,  update recipe, delete recipes and create recipes.
-
+    @Override
+    public JsonResult handlerMessageException(Exception e, HttpStatus httpStatus) {
+        return super.handlerMessageException(e, httpStatus);
+    }
     @PostMapping(value = "/create-recipe", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JsonResult> createRecipe(@RequestBody String json){
         log(getClass(),"Start to create Recipe ./n ");
@@ -57,6 +58,9 @@ public class RecipeController extends AbstractController {
             return new ResponseEntity<>(handlerMessageException(exception,HttpStatus.NOT_FOUND),HttpStatus.NOT_FOUND);
         }
     }
+
+
+
     @GetMapping(value = "/get-recipe", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JsonResult> readAllRecipe() {
         log(getClass(), "Start to read all Recipes ./n ");
@@ -78,28 +82,6 @@ public class RecipeController extends AbstractController {
             return new ResponseEntity<>(handlerMessageException(exception, HttpStatus.NOT_FOUND), HttpStatus.NOT_FOUND);
         }
      }
-
-    @DeleteMapping(value = "/delete-recipe", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<JsonResult> deleteRecipe(@RequestBody String json){
-        log(getClass(),"Start to delete Recipe ./n ");
-        try {
-            Recipe recipe = (Recipe) JsonLogic.getObject(getClass(),json);
-            if(recipeService.delete(recipe)) {
-                result.setResult(true);
-                return new ResponseEntity<>(result,HttpStatus.OK);
-            }
-            else{
-                result.setResult(false);
-                result.setMessage("Failed to get a profile.");
-                result.setErrorCode(ErrorCode.FAILED_GET_ALL_RECIPES);
-                return new ResponseEntity<>(result,HttpStatus.BAD_REQUEST);
-            }
-
-        }
-        catch (Exception exception){
-            return new ResponseEntity<>(handlerMessageException(exception,HttpStatus.NOT_FOUND),HttpStatus.NOT_FOUND);
-        }
-    }
 
     @PutMapping(value = "/update-recipe", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JsonResult> updateProfile(@RequestBody String json) {
@@ -129,6 +111,28 @@ public class RecipeController extends AbstractController {
         }
 
     }
+
+    @DeleteMapping(value = "/delete-recipe", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<JsonResult> deleteRecipe(@RequestBody String json){
+        log(getClass(),"Start to delete Recipe ./n ");
+        try {
+            Recipe recipe = (Recipe) JsonLogic.getObject(getClass(),json);
+            if(recipeService.delete(recipe)) {
+                result.setResult(true);
+                return new ResponseEntity<>(result,HttpStatus.OK);
+            }
+            else{
+                result.setResult(false);
+                result.setMessage("Failed to get a profile.");
+                result.setErrorCode(ErrorCode.FAILED_GET_ALL_RECIPES);
+                return new ResponseEntity<>(result,HttpStatus.BAD_REQUEST);
+            }
+        }
+        catch (Exception exception){
+            return new ResponseEntity<>(handlerMessageException(exception,HttpStatus.NOT_FOUND),HttpStatus.NOT_FOUND);
+        }
+    }
+
 
 
     //TODO
