@@ -14,7 +14,7 @@ public enum ErrorCode {
     private int value;
     private static Map map = new HashMap<>();
 
-    ErrorCode(){
+    private ErrorCode(){
 
     }
     private ErrorCode(int value) {
