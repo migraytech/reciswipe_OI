@@ -11,9 +11,6 @@ public class RecipeValidator implements IValidator {
 
     @Override
     public boolean validRecipe(Recipe recipe) {
-        if(recipe == null && recipe.getName().equals(" ") && recipe.getKitchens() == null)
-            return false;
-        else
-            return true;
+        return recipe != null || !recipe.getName().isEmpty() || recipe.getKitchens() != null;
     }
 }

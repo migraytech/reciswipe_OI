@@ -6,9 +6,10 @@ import java.util.Map;
 public enum ErrorCode {
     NOTHING_WRONG(0),
     FAILED_JSON_CONVERSION(1000),
-
+    FAILED_GET_ALL_RECIPES(3000),
     FAILED_CREATING_RECIPE(3001),
-
+    FAILED_DELETE_RECIPE(3002),
+    FAILED_UPDATE_RECIPE(3003),
     GENERIC_OR_UNKNOWN(1);
 
     private int value;
