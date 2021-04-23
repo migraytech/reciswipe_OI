@@ -32,6 +32,7 @@ public class RecipeController extends AbstractController {
     public JsonResult handlerMessageException(Exception e, HttpStatus httpStatus) {
         return super.handlerMessageException(e, httpStatus);
     }
+
     @PostMapping(value = "/create-recipe", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JsonResult> createRecipe(@RequestBody String json){
         log(getClass(),"Start to create Recipe ./n ");
@@ -58,8 +59,6 @@ public class RecipeController extends AbstractController {
             return new ResponseEntity<>(handlerMessageException(exception,HttpStatus.NOT_FOUND),HttpStatus.NOT_FOUND);
         }
     }
-
-
 
     @GetMapping(value = "/get-recipe", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JsonResult> readAllRecipe() {
