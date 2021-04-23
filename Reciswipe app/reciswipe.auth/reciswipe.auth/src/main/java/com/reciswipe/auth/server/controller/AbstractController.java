@@ -24,14 +24,17 @@ public abstract class AbstractController {
         log(getClass(), "handleNotFoundException....");
         response.setResult(false);
         response.setErrorMessage(e.getMessage());
+
         response.setErrorCode(ErrorCode.GENERIC_OR_UNKNOWN);
         response.setErrorCode(httpStatus.value());
-        log(getClass(),e.getMessage()+ "[HTTPS STATUS]: {}"+httpStatus.value());
+        log(getClass(),e.getMessage()+ "[HTTPS STATUS]:{ }"+httpStatus.value());
         return response;
     }
 
     ///TODO
     //  Check the code of Crossyn for example
+
+    // check on the HttpSatus code 401 in the future.
 
 }
 

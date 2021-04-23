@@ -2,7 +2,10 @@ package com.reciswipe.auth.validators;
 
 import com.reciswipe.auth.interfaces.IValidator;
 import com.reciswipe.auth.server.domain.User;
+import org.springframework.stereotype.Component;
 
+
+@Component
 public class UserValidator implements IValidator {
 
 
