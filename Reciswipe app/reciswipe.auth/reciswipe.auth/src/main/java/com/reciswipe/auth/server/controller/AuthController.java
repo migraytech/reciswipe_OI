@@ -46,7 +46,7 @@ public class AuthController extends AbstractController {
     private JwtTokenUtil jwtTokenUtil;
 
     //TODO
-    // create signIn and signUp  on the platform.
+    // create signIn and signUp on the platform.
     @PostMapping(value = "/signUp", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JsonResult> createUser(@RequestBody String json) {
         log(User.class, "User.. trying to login ");
