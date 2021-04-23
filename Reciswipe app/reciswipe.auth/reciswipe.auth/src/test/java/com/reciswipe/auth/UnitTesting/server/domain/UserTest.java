@@ -1,4 +1,4 @@
-package com.reciswipe.auth.UnitTesting;
+package com.reciswipe.auth.UnitTesting.server.domain;
 
 import com.reciswipe.auth.server.domain.User;
 import org.junit.Assert;
