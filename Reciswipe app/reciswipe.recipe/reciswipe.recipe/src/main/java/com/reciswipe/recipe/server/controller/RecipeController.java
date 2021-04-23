@@ -23,10 +23,10 @@ public class RecipeController extends AbstractController {
 
 
     @Autowired
-    public RecipeService recipeService;
+    private RecipeService recipeService;
 
     @Autowired
-    public RecipeValidator recipeValidator;
+    private RecipeValidator recipeValidator;
 
     @Override
     public JsonResult handlerMessageException(Exception e, HttpStatus httpStatus) {
