@@ -25,7 +25,7 @@ public class AuthService implements IUserService, IValidator {
     @Autowired
     private AuthRepository authRepository;
 
-    @Autowired
+    @Autowired(required = false)
     @Lazy
     private UserValidator userValidator;
 

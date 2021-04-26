@@ -138,6 +138,7 @@ public class AuthController extends AbstractController {
         } catch (DisabledException e) {
             throw new Exception("USER_DISABLED", e);
         } catch (BadCredentialsException e) {
+
             throw new Exception("INVALID_CREDENTIALS", e);
         }
     }

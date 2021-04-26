@@ -23,6 +23,23 @@
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.microsoft.sqlserver</groupId>-->
+<!--			<artifactId>mssql-jdbc</artifactId>-->
+<!--			<version>7.2.1.jre8</version>-->
+<!--			<scope>compile</scope>-->
+<!--		</dependency>-->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.29.Final</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.8.2</version>
@@ -96,6 +113,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId> <!-- surefire plugin version managed by Spring Boot -->
+				<version>2.12.4</version>
 				<configuration>
 					<skipTests>true</skipTests>
 					<additionalClasspathElements>
@@ -141,7 +159,7 @@
 				<version>2.2.0</version>
 				<configuration>
 					<to>
-						<image>auth-service</image>
+						<image>auth-service-reciswipe</image>
 					</to>
 				</configuration>
 			</plugin>
