@@ -1,0 +1,4 @@
+server:
+  port: 8761
+  servlet:
+    application-display-name: eureka-discovery-serviec

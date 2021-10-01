@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+
+  eureka-discovery-service-reciswipe: # <--- this is the name of the service and should be unique.
+       image: eureka-discovery-service-reciswipe:latest # <--- this is the image of which the service will be based upon.
+       hostname: eureka-discovery-service-reciswipe # <--- this will be the hostname it will be known as.
+       restart: always # <--- if it fails, always restart.
+       ports:
+         - 8761:8761 # <-- bind the host port 8081 to whatever is running in the container on 8080.
+         
+  gateway-service-reciswipe:
+        image:  gateway-service-reciswipe:latest 
+        hostname: gateway-service-reciswipe
+        restart: always
+        ports:
+          - 8080:8080 
+  
+  auth-service-reciswipe: 
+      image: auth-service-reciswipe:latest 
+      hostname: auth-service-reciswipe
+      restart: always 
+      ports: 
+       - 8081:8081 
+  
+  recipe-service-reciswipe:
+      image: recipe-service-reciswipe:latest 
+      hostname: recipe-service-reciswipe
+      restart: always 
+      ports:
+        - 8082:8082 
