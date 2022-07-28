@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/reciswipe-app.iml" filepath="$PROJECT_DIR$/.idea/reciswipe-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reciswipe.auth/reciswipe.auth/reciswipe.auth.iml" filepath="$PROJECT_DIR$/reciswipe.auth/reciswipe.auth/reciswipe.auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reciswipe.eurak.service/reciswipe.eurak.service/reciswipe.eurak.service.iml" filepath="$PROJECT_DIR$/reciswipe.eurak.service/reciswipe.eurak.service/reciswipe.eurak.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reciswipe.gateway/reciswipe.gateway/reciswipe.gateway.iml" filepath="$PROJECT_DIR$/reciswipe.gateway/reciswipe.gateway/reciswipe.gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reciswipe.recipe/reciswipe.recipe/reciswipe.recipe.iml" filepath="$PROJECT_DIR$/reciswipe.recipe/reciswipe.recipe/reciswipe.recipe.iml" />
+    </modules>
+  </component>
+</project>
