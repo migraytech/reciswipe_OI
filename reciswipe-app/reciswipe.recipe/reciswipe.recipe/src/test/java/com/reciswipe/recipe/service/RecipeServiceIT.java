@@ -1,4 +1,4 @@
-package com.reciswipe.recipe.IntegrationTesting.service;
+package com.reciswipe.recipe.service;
 
 
 import org.springframework.boot.test.context.SpringBootTest;

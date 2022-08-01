@@ -1,6 +1,6 @@
 package com.reciswipe.recipe.server.controller;
 
-import com.reciswipe.recipe.IntegrationTesting.service.RecipeService;
+import com.reciswipe.recipe.service.RecipeService;
 import com.reciswipe.recipe.helpers.ErrorCode;
 import com.reciswipe.recipe.helpers.JsonLogic;
 import com.reciswipe.recipe.helpers.JsonResult;

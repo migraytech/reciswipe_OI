@@ -1,6 +1,6 @@
 package com.reciswipe.recipe.server.controller;
 
-import com.reciswipe.recipe.IntegrationTesting.service.RecipeService;
+import com.reciswipe.recipe.service.RecipeService;
 import com.reciswipe.recipe.validator.RecipeValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

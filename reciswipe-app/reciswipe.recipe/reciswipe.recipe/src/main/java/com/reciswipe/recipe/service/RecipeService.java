@@ -1,4 +1,4 @@
-package com.reciswipe.recipe.IntegrationTesting.service;
+package com.reciswipe.recipe.service;
 
 import com.reciswipe.recipe.interfaces.IRecipeService;
 import com.reciswipe.recipe.server.domain.Recipe;
